@@ -10,7 +10,7 @@ http://study.marearts.com/2018/03/tensorflow-rnn-lstm-weight-save-and.html
 : simple_rnn_1layer_save_restore_test.py
 
 n layer simple test
-: soon.
+: simple_rnn_2layer_save_restore_test.py
 
 ----
 This code is referenced by "https://github.com/MareArts/DeepLearningZeroToAll/blob/master/lab-12-1-hello-rnn.py"
