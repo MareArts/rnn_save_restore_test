@@ -13,5 +13,5 @@ n layer simple test
 : soon.
 
 ----
-This code is referenced by this(https://github.com/MareArts/DeepLearningZeroToAll/blob/master/lab-12-1-hello-rnn.py)
+This code is referenced by "https://github.com/MareArts/DeepLearningZeroToAll/blob/master/lab-12-1-hello-rnn.py"
 
