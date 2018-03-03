@@ -38,8 +38,12 @@ def get_state_variables(batch_size, cell):
     return tf.contrib.rnn.LSTMStateTuple(tf.Variable(state_c, trainable=False), tf.Variable(state_h, trainable=False))
 
 # For each layer, get the initial state. states will be a tuple of LSTMStateTuples.
+
 states = get_state_variables(batch_size, cell)
 output, _state = tf.nn.dynamic_rnn(cell, X, initial_state=states)
+#or no tuple
+#initial_state = cell.zero_state(batch_size, tf.float32)
+#output, _state = tf.nn.dynamic_rnn(cell, X, initial_state=initial_state)
 
 #FC layer
 X_for_fc = tf.reshape(output, [-1, hidden_size])
