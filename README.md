@@ -11,3 +11,7 @@ http://study.marearts.com/2018/03/tensorflow-rnn-lstm-weight-save-and.html
 
 n layer simple test
 : soon.
+
+----
+This code is referenced by this(https://github.com/MareArts/DeepLearningZeroToAll/blob/master/lab-12-1-hello-rnn.py)
+
